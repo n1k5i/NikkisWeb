@@ -1,7 +1,90 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(216, 193, 197);
+  font-family: Cursive;
+  
 }
+p{
+  color:rgb(211, 131, 131);
+  font-size: 30px
+  text-align: center;
+  
+}
+h1{
+  color: rgb(211, 131, 131);
+  text-align: center;
+  font-size: 60px;
+  background-color: rgb(255, 255, 255);
+  margin: 5;
+  filter:drop-shadow(300px)
+  
+  text-align: center; 
+  
+}
+
+.welcome_text{
+  color: rgb(73, 20, 20);
+  background-color: rgb(255, 221, 227);
+  text-align:center;
+  font-size: 10px;
+  
+  
+}
+
+#intro_text{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-size: 10px;
+
+}
+
 canvas {
   display: block;
+  margin: 0 auto;    
+  border: 10px solid rgb(16, 3, 12);
+}
+
+h2{
+
+  color: rgb(211, 131, 131);
+  text-align: left;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  
+
+}
+
+
+h3{
+
+  color: rgb(211, 131, 131);
+  text-align: right;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  
+
+}
+
+h4{
+
+  color: rgb(211, 131, 131);
+  text-align: left;
+  font-size: 50px;
+  background-color: rgb(255, 255, 255);
+  margin: 5;
+  filter:drop-shadow(200px)
+ 
+
+}
+
+
+
+body {
+  background-image: url("images/back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll; 
+  background: size 10px;
 }

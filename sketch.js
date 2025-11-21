@@ -11,7 +11,7 @@ let es3img;
 function preload() {
   
   myFont = loadFont("Font.ttf");
-  bg1 = loadImage("background.png")
+  bg1 = loadImage("images/background.png")
   
   en1img = loadImage("en1.png");
   en2img = loadImage("en2.png");
